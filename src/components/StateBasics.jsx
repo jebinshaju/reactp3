@@ -29,6 +29,8 @@ const StateBasics = () => {
   return (
     <div>
       <br />
+      <br /><br />
+      <Typography variant="h2">Welcome {pname}</Typography>
       <div >
       <Button variant="contained" onClick={changeHome}>
         Home
@@ -42,7 +44,7 @@ const StateBasics = () => {
       </div>
       
       <hr />
-      <Typography variant="h2">Welcome {pname}</Typography>
+      
       <br />
       <br />
       <hr />
